@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Pragati 2K22</title>
+    <link>https://sandbox-devfesttoulouse.firebaseapp.com/post/</link>
+    <description>Recent content in Posts on Pragati 2K22</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sandbox-devfesttoulouse.firebaseapp.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This is a test post</title>
+      <link>https://sandbox-devfesttoulouse.firebaseapp.com/post/2022-08-19-this-is-a-test-post/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sandbox-devfesttoulouse.firebaseapp.com/post/2022-08-19-this-is-a-test-post/</guid>
+      <description>This is a test post   This is a test post.
+let me add an image here</description>
+    </item>
+    
+  </channel>
+</rss>
