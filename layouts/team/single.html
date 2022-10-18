@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<div class="hero">
+  <header>
+		<div class="speaker-img" style="background-image: url({{ .Page.Params.photo }});"></div>
+		<div>
+			<h1>{{ .Page.Params.Title }}</h1>
+
+			<ul class="socials">
+				{{ range .Page.Params.socials }}
+				<li>
+					<a href="{{ .link }}" class="social" rel="noopener noreferrer" target="_blank">
+						{{ partial "icon.html" .icon }}
+						{{ .name }}
+					</a>
+				</li>
+				{{ end }}
+			</ul>
+		</div>
+	</header>
+</div>
+
+<section class="content">
+	{{ .Content }}
+</section>
+
+{{ end }}

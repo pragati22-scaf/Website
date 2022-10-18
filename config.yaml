@@ -1,0 +1,4 @@
+theme: "devfest-theme-hugo"
+baseURL: http://example.org/
+languageCode: en-us
+title: My New Hugo Site

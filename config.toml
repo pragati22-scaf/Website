@@ -1,0 +1,73 @@
+baseURL = "https://sandbox-devfesttoulouse.firebaseapp.com/"
+languageCode = "en"
+title = "Pragati 2K22"
+
+# Theme
+theme = "devfest-theme-hugo"
+
+# Params
+
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+googleAnalytics = "UA-37717223-8"
+
+[params]
+    title = "Pragati 2K22"
+    date = "2022-11-05"
+    description = "Pragati 2K22, is the Sree Chitra Arts Fest of the year 2022, It is an annual cultural and academic festival organised by the students of Sree Chitra Tirunal Institute for Medical Sciences & Technology (SCTIMST), Trivandrum. It is aimed at building a sense of family within the student community."
+    images = ["/images/social-share.jpg"]
+    email = "scaf2k22@gmail.com"
+    keywords = "event, scaf2k22, sctimst, pragati, ai/ml, healthcare, cultural"
+    copyright = "We :heart:️ SCTIMST"
+    subscriptionUrl = "http://eepurl.com/dps1j5"
+    appleTouchIcon = "/apple-touch-icon.png"
+    favicon32 = "/favicon-32x32.png"
+    favicon16 = "/favicon-16x16.png"
+    manifest = "/manifest.json"
+    safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor = "#3a9f95"
+    googleWebmasterKey = "BcIJYWDHoblML5DO66_b1BGBne9J_7Oq3GjC5SDCKK8"
+
+[params.logos]
+    jumbo = "/images/logos/pragati_col_white_text.png"
+    header = "/images/logos/pragati_all_white_text.png"
+    footer = "/images/logos/pragati_gray_text.png"
+
+[menu]
+[[menu.main]]
+
+
+[languages]
+[languages.en]
+    weight = 1
+    languageName = "gb"
+[languages.fr]
+
+
+
+[taxonomies]
+  tag = "tags"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = true
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = true
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
